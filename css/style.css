@@ -703,7 +703,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: #000;
   padding: 60px 0 40px 0;
 }
 
@@ -715,7 +715,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: #000;
   padding: 60px 0 40px 0;
 }
 
