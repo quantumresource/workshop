@@ -137,7 +137,7 @@ h6 {
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+  background-color: #fdfaf6;
 }
 
 /*--------------------------------------------------------------
@@ -655,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  /* background: url("../img/about-bg.jpg"); */
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -665,7 +665,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  /* background: rgba(13, 20, 41, 0.8); */
+  background: rgba(224, 233, 218, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -677,7 +678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #000;
 }
 
 #about h3 {
@@ -685,13 +686,37 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: #000;
 }
 
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
+  color: #000;
+}
+
+/*--------------------------------------------------------------
+# Speakers Section
+--------------------------------------------------------------*/
+
+#cfp {
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
   color: #fff;
+  padding: 60px 0 40px 0;
+}
+
+/*--------------------------------------------------------------
+# Important Dates Section
+--------------------------------------------------------------*/
+
+#importantdates {
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
 }
 
 /*--------------------------------------------------------------
