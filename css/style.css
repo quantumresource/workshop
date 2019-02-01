@@ -23,7 +23,8 @@ body {
 }
 
 a {
-  color: #f82249;
+  /* color: #f82249; */
+  color: #e4b10b;
   transition: 0.5s;
 }
 
@@ -524,7 +525,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f82249;
+  /* color: #f82249; */
+  color: #e4b10b;
 }
 
 #intro p {
