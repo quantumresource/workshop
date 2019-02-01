@@ -1115,7 +1115,7 @@ p {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center; */
-  display: flex;
+  /* display: flex; */
   align-items: center;
   border-right: 1px solid #e0e5fa;
   border-bottom: 1px solid #e0e5fa;
