@@ -1108,13 +1108,13 @@ p {
 
 #sponsors .sponsor-logo {
   padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  -webkit-box-pack: center;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  /* -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
+  -ms-flex-align: center; */
   display: flex;
   align-items: center;
   border-right: 1px solid #e0e5fa;
