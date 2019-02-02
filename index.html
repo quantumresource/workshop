@@ -113,42 +113,23 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h2>About The Workshop</h2>
+            <h2>About QRE</h2>
             <p>
-              Welcome to the first international workshop on Quantum Resource Estimation (QRE).  Co-located with the 
-              ACM International Symposium on Computer Architectures (ISCA), QRE is focused on the 
-              emerging field of Quantum Resource Estimation, benchmarking and performance analytics.  
-              The main objective of QRE is to organise a forum where researchers in acedemia and industry can 
-              share research on the near term feasibility of interesting scientifically and/or commercially useful
-              quantum algorithms by shifting the perspective from complexity theoretic 
-              arguments to quantitative computer architecture arguments. The workshop proposes 
-              a top down approach, from high level algorithmic construction and optimization down to the 
-              actual implementation on hardware systems being constructed worldwide.  
+              This is the first international workshop on the emerging field of Quantum Resource Estimation (QRE), benchmarking and performance analytics.  
+              We hope to encourage participation from those working in quantum algorithm optimization, error-correction, architecture 
+              design, quantum compilation, classical control and resource benchmarking.
             </p>
             <p>
-              Multiple factors influence the amount of physical resources needed 
-              for executing a quantum algorithm. Physical resources can vary significantly  
-              due to the structure and designed precision of a high level quantum algorithm and the resultant 
-              quantum circuit, while additional overhead is introduced due to the physical 
-              constraints of the quantum hardware and the introduction of resource hungry quantum error correction. 
-              Even the design and the performance of the classical control software that compiles 
-              algorithms and controls the quantum computer has a non-negligible 
-              impact on the amount of physical resources needed for implementation of a given program.
-            </p>
+                The workshop is focused around developing techniques and tools that aid quantum software and algorithm 
+                design, informed by the realities of the hardware architectures. QRE shifts the perspective from complexity theoretic 
+                arguments to quantitative computer architecture arguments.
+            </p>                
             <p>
-              The possibility of NISQ machines sparked the interest of exact, realistic and non 
-              asymptotic resource estimations of computations, driven by the recent introduction of multiple, small-scale,  
-              cloud-based quantum computing platforms. However, it is still very uncertain if 
-              any commercially or scientifically valuable quantum algorithm that outperforms classical supercompuers 
-              (either in a theoretical or monetary sense) is possible without incorporating costly error-correction 
-              protocols that make resource estimation, benchmarking and optimization far more complex. 
-            </p>
-            <p>
-              This workshop is focused around developing techniques and tools that aid quantum software and algorithm 
-              design, informed by the realities of the hardware architectures.  We hope to encourage 
-              participation from those working in quantum algorithm optimization, error-correction, architecture 
-              design, quantum compilation, classical control and resource benchmarking to help 
-              reduce physical resource costs for interesting quantum algorithms as quickly as possible.
+              The goal is to reduce the physical resource<sup>1</sup> costs for interesting quantum algorithms as quickly as possible.
+              Small-scale, cloud-based NISQ machines sparked the interest of exact, realistic and non asymptotic resource estimations.
+              It is still uncertain if any valuable quantum algorithm<sup>2</sup> is possible without incorporating costly error-correction 
+              protocols that make estimation, benchmarking and optimization far more complex. QRE is the forum to share research on the near term 
+              feasibility of interesting<sup>2</sup> quantum algorithms.
             </p>
           </div>
 
@@ -158,6 +139,24 @@
             <p><b>Simon Devitt, University of Technology, Sydney, Australia</b></p>
             <p><b>Daniel Herr, RIKEN, Wako-shi, Japan</b></p>
             <img src="img/img1.jpg" alt="Braiding" class="img-fluid">
+          </div>
+          <div class="col-lg-12">
+              <p>
+                  <small>
+                  <sup>1</sup>Physical resources for executing a quantum algorithm can vary significantly. 
+                  Resource costs are influenced by the resultant quantum circuits through
+                  their structure and designed precision. Additional overheads are introduced by the physical 
+                  constraints of the quantum hardware. Quantum error correction is also resource hungry.
+                  Even the design and the performance of the classical control software that compiles 
+                  algorithms and controls the quantum computer has a non-negligible 
+                  impact on resources.
+                  </small>
+                </p>
+                <p>
+                  <small>
+                  <sup>2</sup>Algorithm that outperforms classical supercomputers either in a theoretical or monetary sense.
+                  </small>
+                </p>
           </div>
         </div>
       </div>
@@ -180,24 +179,28 @@
                 and scalable quantum computer seems to be at least a decade away. Therefore, one of the 
                 most pressing questions is <b>"How many physical qubits and how much time is necessary to 
                 execute a quantum algorithm on a selected hardware platform where the algorithmic output is more important 
-                than the the fact a quantum computer was used to calculate it?"</b> By examining this question in depth 
+                than the fact a quantum computer was used to calculate it?"</b>
+            </p>
+            <p> By examining this question in depth 
                 we can motivate continued investment for quantum computing, further enable resource friendly 
                 quantum algorithm development and continue to push technological advances that will 
                 lead to a scalable quantum computing ecosystem. 
             </p> 
             <p>
                 The workshop will bring together researchers to discuss new methods and directions 
-                needed to develop the tools to accurately analyze and benchmark complex quantum algorithms, 
-                adapt error-correction techniques and refine classical control and hardware microarchitectures 
-                to enable scientifically and commercially relavant quantum applications as soon as possible.
+                needed to develop, as soon as possible, the tools to:
+                <ul>
+                  <li>accurately analyze and benchmark complex quantum algorithms</li>
+                  <li>adapt error-correction techniques</li>
+                  <li>refine classical control and hardware microarchitectures</li>
+                  <li>enable scientifically and commercially relavant quantum applications</li>
+                </ul>
             </p>
             <p>
                 Research papers, tutorials, software and other demonstrations, and work-in-progress reports are within 
-                the scope of the conference. Invited talks by leading international experts will complete 
+                the scope of the workshop. Invited talks by leading international experts will complete 
                 the program. Contributions on all areas of <b>quantum performance analytics</b> are welcome:
-            </p>
-                
-            <ul>
+                <ul>
                     <li>High level quantum circuit analytics.</li>
                     <li>Fault-tolerant quantum circuit analytics.</li>
                     <li>Clifford+T optimisation strategies.</li>
@@ -205,19 +208,19 @@
                     <li>Surface code decoders.</li>
                     <li>Practical quantitative analysis of surface code alternatives.</li>
                     <li>Noisy Intermediate Scale Quantum (NISQ) evaluation.</li>
-            </ul>
-              
-              <p>
-                <a href="https://easychair.org/conferences/?conf=qre2019">Initial submission for QRE2019</a> will consist of an extended abstract, limited to 2+epsilon-pages (including 
-                figures and references, please don't go nuts with the epsilon!). Upon acceptance, researchers are invited to submit full research papers 
+              </ul>
+            </p>
+            <p>
+              Initial <a href="https://easychair.org/conferences/?conf=qre2019">submission for QRE2019</a> will consist of an extended abstract, limited to 2+epsilon-pages (including 
+              figures and references, please don't go nuts with the epsilon!). 
+              Contributions must be written in English and report on original, unpublished work, not submitted for publication
+              elsewhere.
+            </p>
+            <p>
+                Upon acceptance, researchers are invited to submit full research papers 
                 (maximum 12 pages), as well as work-in-progress or tool demonstration papers (maximum 6 pages). 
-                Contributions must be written in English and report on original, unpublished work, not submitted for publication
-                elsewhere. Accepted papers will be included (with authors consent) in indexed workshop proceedings, to be 
-                published in a new IEEE open access journal (IEEE transactions on Quantum Engineering).  
-              </p>  
-              <p>
-                Due to space restrictions, participation in this workshop will be limited.  
-              </p>  
+                Accepted full papers will be published in a journal (subject to the journal being approved - IEEE Transactions on Quantum Engineering; otherwise a backup journal TBD exists).
+            </p>
         </div>
       </div>
     </section>
@@ -232,20 +235,24 @@
           <p><a href="https://easychair.org/conferences/?conf=qre2019" target=_blank>Submission Site</a></p>
         </div>
         <div class="row">
-            Abstract submission: TBD
+            Extended Abstract:<b> 21 April 2019</b>
         </div>
         <div class="row">
-            Submission deadline: TBD
+            Notification Extended Abstract:<b> 12 May 2019</b>
         </div>
         <div class="row">
-            Notification to authors: TBD
+            Workshop:<b> 22 June 2019</b>
         </div>
         <div class="row">
-            Final version: TBD
+            Full Paper Submission:<b> 1 August 2019</b>
         </div>
         <div class="row">
-            Workshop: 22 June 2019
+            Notification Full Paper:<b> (tentative) 1 November 2019</b>
         </div>
+        <div class="row">
+            Publication Full Paper:<b> (tentative) 1 January 2020</b>
+        </div>
+        
       </div>
     </section>
 
