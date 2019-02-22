@@ -4,6 +4,8 @@
 
 June 22, 2019, Phoenix, AZ, USA
 
+co-located with International Symposium on Computer Architecture (ISCA) 2019
+
 https://www.quantumresource.org/
 
 =======================================================================
