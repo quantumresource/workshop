@@ -18,7 +18,7 @@ The workshop will bring together researchers to discuss new methods and directio
 * accurately analyze and benchmark complex quantum algorithms
 * adapt error-correction techniques
 * refine classical control and hardware microarchitectures
-* enable scientifically and commercially relavant quantum applications
+* enable scientifically and commercially relevant quantum applications
 
 Research papers, tutorials, software and other demonstrations, and work-in-progress reports are within the scope of the workshop. Invited talks by leading international experts will complete the program. Contributions on all areas of quantum performance analytics are welcome:
 * High level quantum circuit analytics.
